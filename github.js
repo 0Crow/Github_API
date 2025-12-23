@@ -1,4 +1,4 @@
-const TOKEN = "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";
+const TOKEN = "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";
 
 function loadRepos() {
   const username = document.getElementById("username").value.trim();
@@ -74,3 +74,4 @@ function loadRepos() {
       console.error(err);
     });
 }
+
