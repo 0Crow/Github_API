@@ -22,8 +22,10 @@ This demo shows how to authenticate with a GitHub Personal Access Token and make
 ## How it works
 
 - The demo reads the token from the constant in `github.js`, attaches an `Authorization: token <TOKEN>` header to requests, and uses `fetch()` to call GitHub REST API endpoints.
-- Responses are displayed in the UI and logged to the browser console; for production, move authentication to a secure backend to avoid exposing tokens.
+- Now, once token was properly included in js, user must search for user's username to see its profile and repository.
+- Once successful, the responses are displayed in the UI such as profile and repositories and logged to the browser console if error.
 
 ## Security
 
 - Use environment-backed tokens or a server proxy for production demos.
+
