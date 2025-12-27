@@ -1,43 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Sets character encoding -->
   <meta charset="UTF-8">
+
+  <!-- Page title shown in browser tab -->
   <title>GitHub Public Repo Viewer</title>
+
+  <!-- Link to external CSS file -->
   <link rel="stylesheet" href="github.css">
 </head>
 <body>
     
+    <!-- Header section -->
     <div class="header">
         <div class="logo">
+            <!-- GitHub logo image -->
             <img src="./src/github.png" alt="github"/>
+
+            <!-- App title -->
             <p>GitHub Public Repositories</p>
         </div>
     </div>
 
+    <!-- Main content area -->
     <div class="main">
 
+        <!-- Search bar for GitHub username -->
         <div class="search-bar">
+            <!-- Input field where user enters GitHub username -->
             <input type="text" id="username" placeholder="Enter GitHub username">
+
+            <!-- Button that triggers loadRepos() function -->
             <button onclick="loadRepos()">Load Repository</button>        
         </div>
         
+        <!-- Section for profile and repositories -->
         <div class="details">
+            <!-- Container for user profile -->
             <div class="profile" id="profile"></div>
+
+            <!-- Container for repositories list -->
             <div class="repository" id="repos"></div>
         </div>
 
     </div>
 
+    <!-- Footer section -->
     <div class="footer">
         <div class="logo-footer">
+            <!-- Footer GitHub logo -->
             <img src="./src/github.png" alt="github"/>
+
+            <!-- Footer title -->
             <p>GitHub Public Repositories</p>
         </div>
+
+        <!-- Copyright text -->
         <div class="copyright-footer">
             <p>©2025. GitHub Public Repositories. All Rights Reserve</p>
         </div>
     </div>
 
 </body>
-   <script src="github.js"></script>
+
+<!-- Link to external JavaScript file -->
+<script src="github.js"></script>
 </html>
