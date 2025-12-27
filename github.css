@@ -1,3 +1,4 @@
+/* Global page layout */
 body {
     font-family: Arial, sans-serif;
     display: grid;
@@ -13,6 +14,7 @@ body {
     margin: 0;
 }
 
+/* Header styling */
 .header {
     grid-area: header;
     background-color: #E8F5E9;
@@ -21,6 +23,7 @@ body {
     align-items: center;
 }
 
+/* Logo container */
 .logo {
     display: flex;
     flex-direction: row;
@@ -28,12 +31,14 @@ body {
     align-items: center;
 }
 
+/* Logo image styling */
 .logo img {
    clip-path: circle(50%);
    width: 40px;
    height: 40px;
 }
 
+/* Logo text */
 .logo p {
     font-weight: 600;
     color: #1B5E20;
@@ -41,6 +46,7 @@ body {
     padding: 0;
 }
 
+/* Main content section */
 .main {
     grid-area: main;
     background-color: #F5F5F5;
@@ -48,11 +54,13 @@ body {
     flex-direction: column;
 }
 
+/* Search bar container */
 .search-bar {
     height: fit-content;
     padding: 1rem;
 }
 
+/* Username input field */
 .search-bar input {
     height: 30px;
     width: 40%;
@@ -61,6 +69,7 @@ body {
     outline: 1px solid #E0E0E0;
 }
 
+/* Search button */
 .search-bar button {
     height: 30px;
     border: none;
@@ -69,11 +78,13 @@ body {
     outline: 1px solid #E0E0E0;
 }
 
+/* Button hover effect */
 .search-bar button:hover {
     background-color: #1B5E20;
     color: #F5F5F5;
 }
 
+/* Profile and repository layout */
 .details {
     display: grid;
     grid-template-areas: 
@@ -82,6 +93,7 @@ body {
     height: 100%;
 }
 
+/* Profile section */
 .profile {
     grid-area: profile;
     height: 100%;
@@ -92,6 +104,7 @@ body {
     gap: 5px;
 }
 
+/* Profile image */
 .profile img {
    width: 20vw;
    height: 40vh;
@@ -100,6 +113,7 @@ body {
    outline: 2px solid #E0E0E0;
 }
 
+/* Profile text info */
 .profile p {
     margin: 0;
     padding: 0;
@@ -110,6 +124,7 @@ body {
     margin-top: 5px;
 }
 
+/* Repository list container */
 #repos {
     grid-area: repository;
     height: 100%;
@@ -121,6 +136,7 @@ body {
     gap: 2px;
 }
 
+/* Individual repository card */
 .repo {
     width: 100%;
     height: fit-content;
@@ -131,7 +147,7 @@ body {
     box-sizing: border-box;
 }
 
-
+/* Footer section */
 .footer {
     grid-area: footer;
     background-color: #E8F5E9;
@@ -140,6 +156,7 @@ body {
     flex-direction: column;
 }
 
+/* Footer logo container */
 .logo-footer {
     display: flex;
     flex-direction: row;
@@ -147,18 +164,21 @@ body {
     width: 100%;
 }
 
+/* Footer text */
 .logo-footer p {
     font-weight: 600;
     font-size: 12px;
     color: #1B5E20;
 }
 
+/* Footer logo image */
 .logo-footer img {
    clip-path: circle(50%);
    width: 30px;
    height: 30px;
 }
 
+/* Copyright alignment */
 .copyright-footer {
     display: flex;
     justify-content: end;
@@ -166,6 +186,7 @@ body {
     padding-right: 1rem;
 }
 
+/* Copyright text */
 .copyright-footer p {
     font-weight: 600;
     font-size: 12px;
