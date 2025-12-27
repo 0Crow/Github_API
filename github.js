@@ -1,5 +1,5 @@
 // GitHub personal access token for authenticated API requests
-const TOKEN = "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";
+const TOKEN = "Your_Token_Key_Here";
 
 // Main function to load profile and repositories
 function loadRepos() {
@@ -98,3 +98,4 @@ function loadRepos() {
       console.error(err);
     });
 }
+
