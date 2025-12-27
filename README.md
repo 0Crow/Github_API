@@ -11,7 +11,8 @@ A small demo showing usage of the GitHub REST API from the client/demo files.
 
 ## Quick start
 
-1. Put your GitHub personal access token into `const TOKEN = "YOUR_API";` in `github.js`.
+1. Get your API token key on github.com.
+2. Put your GitHub personal access token into `const TOKEN = "Your_Token_Key_Here";` in `github.js`.
 2. Serve the folder locally and open `github.html` in your browser.
 3. Use the demo UI to make API requests; check DevTools console for responses.
 
@@ -28,4 +29,5 @@ This demo shows how to authenticate with a GitHub Personal Access Token and make
 ## Security
 
 - Use environment-backed tokens or a server proxy for production demos.
+
 
